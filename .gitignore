@@ -1,0 +1,39 @@
+# .gitignore for minimal ASP.NET Core WebAPI with SQLite
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+
+# Ignore SQLite database file
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore ASP.NET Core configuration files
+appsettings*.json
+
+# Ignore logs
+*.log
+Logs/
+
+# Ignore temporary files
+[Tt]humbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+
+# Ignore Rider settings
+.idea/
+.idea_modules/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
